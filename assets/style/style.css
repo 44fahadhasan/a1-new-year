@@ -283,5 +283,50 @@ span {
   display: flex;
 }
 
+/* portfolio css style */
+.portfolio {
+  margin-top: 100px;
+}
+
+/* portfolio text */
+.portfolio .portfolio-wrapper .portfolio-text * {
+  margin-bottom: 12px;
+  width: 70%;
+}
+
+/* portfolio images */
+.portfolio .portfolio-wrapper .portfolio-images-warp {
+  margin-top: 39px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* portfolio images top & bottom*/
+.portfolio .portfolio-wrapper .portfolio-images-warp .portfolio-images-warp-top,
+.portfolio-images-warp-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5%;
+}
+
+.portfolio
+  .portfolio-wrapper
+  .portfolio-images-warp
+  .portfolio-images-warp-top
+  .img-con,
+.portfolio-images-warp-bottom .img-con {
+  width: 32%;
+}
+
+.portfolio
+  .portfolio-wrapper
+  .portfolio-images-warp
+  .portfolio-images-warp-top
+  .img-con
+  img,
+.portfolio-images-warp-bottom .img-con img {
+  width: 100%;
+}
+
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
