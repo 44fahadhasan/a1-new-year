@@ -266,8 +266,21 @@ span {
   font-size: 58px;
   margin-top: 12px;
 }
+
 .holidays .holidays-wrapper .holidays-text p {
   margin-top: 22px;
+}
+
+/* holidays images  */
+.holidays .holidays-wrapper .holidays-images {
+  margin-top: 22px;
+  display: flex;
+}
+
+/* holidays bottom img */
+.holidays .holidays-wrapper .holidays-bottom-img {
+  margin-top: 22px;
+  display: flex;
 }
 
 /* font-family: 'Inter', sans-serif;
