@@ -17,6 +17,24 @@ font-family: 'Merriweather', serif; */
   margin: auto;
 }
 
+p {
+  color: #ffffffcc;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+}
+
+button {
+  color: white;
+  background-color: #f00;
+  border: 0;
+  border-radius: 5px;
+  padding: 13px 26px;
+  font-size: 17px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
 /* header banner css style*/
 .header-banner {
   font-family: "Merriweather", serif;
@@ -78,4 +96,44 @@ font-family: 'Merriweather', serif; */
 .discount .discount-wrapper .discount-img {
   margin: auto;
   margin-top: 92px;
+}
+
+/* welcome css style */
+.welcome {
+  margin-top: 100px;
+}
+
+.welcome .welcome-wrapper {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-position: 0%, 60%;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.welcome .welcome-wrapper .welcome-text {
+  width: 40%;
+  padding-left: 103px;
+}
+
+.welcome .welcome-wrapper h2 {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 52px;
+  font-weight: 900px;
+  line-height: 72px;
+}
+
+.welcome .welcome-wrapper p {
+  margin: 15px 0px 30px 0px;
+}
+
+.welcome .welcome-wrapper button {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.welcome .welcome-wrapper .welcome-img {
+  width: 60%;
+  text-align: center;
 }
