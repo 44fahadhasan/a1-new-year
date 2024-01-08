@@ -42,9 +42,15 @@ button {
   border-radius: 5px;
   padding: 13px 26px;
   font-size: 17px;
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 0.774);
 }
 
 span {
@@ -371,7 +377,7 @@ span {
 }
 
 .subscribe .subscribe-wrapper .subscribe-input input[type="email"]:focus {
-  border: 0;
+  outline: none;
 }
 
 .subscribe .subscribe-wrapper .subscribe-input input[type="email"] {
@@ -382,12 +388,101 @@ span {
 
 .subscribe .subscribe-wrapper .subscribe-input input[type="submit"] {
   padding: 0px 46px;
-  color:white;
+  color: white;
   background-color: #f00;
   border-radius: 0px 50px 50px 0px;
   margin-left: -5px;
   cursor: pointer;
 }
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */type=""
+/* footer css style */
+.footer {
+  font-family: "Inter", sans-serif;
+  background-color: #070211;
+}
+
+.footer .footer-wrapper {
+  padding: 100px 0px;
+}
+
+.footer .footer-wrapper hr {
+  border: thin solid #ffffff26;
+}
+
+.footer .footer-wrapper ul {
+  list-style-type: none;
+}
+
+/* info */
+.footer .footer-wrapper .footer-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.footer .footer-wrapper .footer-info .colum {
+  width: 50%;
+}
+
+.footer .footer-wrapper .footer-info .colum p {
+  color: white;
+}
+
+.footer .footer-wrapper .footer-info .colum ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3%;
+  margin-bottom: 10px;
+}
+
+.footer .footer-wrapper .footer-info .colum ul li img {
+  width: 19px;
+}
+
+.footer .footer-wrapper .footer-info .colum ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* social  */
+.footer .footer-wrapper .footer-social {
+  margin: 39px 0px;
+}
+
+.footer .footer-wrapper .footer-social ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .footer-wrapper .footer-social ul li {
+  padding: 0px 10px;
+}
+
+.footer .footer-wrapper .footer-social ul li a img {
+  width: 40px;
+}
+
+/* footer bottom */
+.footer .footer-wrapper .footer-bottom {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer .footer-wrapper .footer-bottom .copy-right-col {
+  width: 50%;
+}
+
+.footer .footer-wrapper .footer-bottom .copy-right-col .ftr-btn {
+  text-align: right;
+}
+
+.footer .footer-wrapper .footer-bottom .copy-right-col .ftr-btn button {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* The End  */
