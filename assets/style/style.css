@@ -35,6 +35,15 @@ button {
   font-family: "Inter", sans-serif;
 }
 
+.joininfo .joininfo-wrapper {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+}
+
 /* header banner css style*/
 .header-banner {
   font-family: "Merriweather", serif;
@@ -107,6 +116,7 @@ button {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   background-position: 0%, 60%;
+  border-radius: 13px;
   padding: 60px 0px;
   display: flex;
   align-items: center;
@@ -136,4 +146,32 @@ button {
 .welcome .welcome-wrapper .welcome-img {
   width: 60%;
   text-align: center;
+}
+
+/* joininfo css style */
+.joininfo {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.joininfo .joininfo-wrapper {
+  padding: 80px 0px 150px 0px;
+  margin-top: 100px;
+}
+
+.joininfo .joininfo-wrapper h4 {
+  color: #070211;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.joininfo .joininfo-wrapper span {
+  color: #f00;
+}
+
+.joininfo .joininfo-wrapper button {
+  text-transform: capitalize;
+  margin-top: 52px;
 }
