@@ -275,14 +275,48 @@ span {
 
 /* holidays images  */
 .holidays .holidays-wrapper .holidays-images {
-  margin-top: 22px;
+  margin-top: 50px;
   display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* left */
+.holidays .holidays-wrapper .holidays-images .left-colum-img {
+  width: 35%;
+}
+
+.holidays .holidays-wrapper .holidays-images .left-colum-img img {
+  position: absolute;
+  width: 50%;
+  left: 4%;
+  top: 28%;
+}
+
+/* middle */
+.holidays .holidays-wrapper .holidays-images .middle-colum-img {
+  width: 25%;
+}
+
+.holidays .holidays-wrapper .holidays-images .middle-colum-img img {
+  width: 100%;
+  position: relative;
+  left: 47%;
+}
+
+/* right */
+.holidays .holidays-wrapper .holidays-images .right-colum-img {
+  width: 40%;
+}
+
+.holidays .holidays-wrapper .holidays-images .right-colum-img img {
+  width: 100%;
+  vertical-align: middle;
 }
 
 /* holidays bottom img */
-.holidays .holidays-wrapper .holidays-bottom-img {
-  margin-top: 22px;
-  display: flex;
+.holidays .holidays-wrapper .holidays-bottom-img img {
+  width: 100%;
 }
 
 /* portfolio css style */
@@ -399,6 +433,7 @@ span {
 .footer {
   font-family: "Inter", sans-serif;
   background-color: #070211;
+  margin-top: 100px;
 }
 
 .footer .footer-wrapper {
