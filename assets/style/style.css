@@ -1,9 +1,6 @@
 /* font family */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
-
 /* universal css style */
 * {
   margin: 0;
@@ -17,8 +14,23 @@ font-family: 'Merriweather', serif; */
   margin: auto;
 }
 
+h5 {
+  color: #f00;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  color: #070211;
+  font-size: 39px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
 p {
-  color: #ffffffcc;
+  /* color: #ffffffcc; */
+  color: #07021199;
   font-family: "Inter", sans-serif;
   line-height: 24px;
 }
@@ -35,6 +47,11 @@ button {
   font-family: "Inter", sans-serif;
 }
 
+span {
+  color: #f00;
+}
+
+/* some section back color */
 .joininfo .joininfo-wrapper {
   background-image: linear-gradient(
     180deg,
@@ -46,8 +63,6 @@ button {
 
 /* header banner css style*/
 .header-banner {
-  font-family: "Merriweather", serif;
-  color: white;
   text-align: center;
 }
 
@@ -61,22 +76,21 @@ button {
   margin-top: 40px;
 }
 
-.header-banner .banner-content-wapper p {
+.header-banner .banner-content-wapper h5 {
   font-size: 26px;
-  font-weight: 400px;
+  font-weight: 400;
+  color: white;
 }
 
 .header-banner .banner-content-wapper h1 {
   font-size: 60px;
-  font-weight: 900px;
   line-height: 78px;
   margin-top: 15px;
+  color: white;
 }
 
 /* discount css style */
 .discount {
-  color: #f00;
-  font-family: "Inter", sans-serif;
   text-align: center;
 }
 
@@ -84,21 +98,21 @@ button {
   margin-top: 130px;
 }
 
-.discount .discount-wrapper .discount-text h2 {
+.discount .discount-wrapper .discount-text h1 {
+  color: #f00;
   font-size: 72px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 40px;
 }
 
-.discount .discount-wrapper .discount-text h6 {
-  font-size: 19px;
-  font-weight: 500px;
-  margin-bottom: 6px;
+.discount .discount-wrapper .discount-text h5 {
+  margin-bottom: 13px;
 }
 
-.discount .discount-wrapper .discount-text h3 {
-  font-size: 39px;
-  font-weight: 700px;
+.discount .discount-wrapper .discount-text h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
   color: #070211;
 }
 
@@ -127,16 +141,15 @@ button {
   padding-left: 103px;
 }
 
-.welcome .welcome-wrapper h2 {
+.welcome .welcome-wrapper h1 {
   color: white;
-  font-family: "Merriweather", serif;
   font-size: 52px;
-  font-weight: 900px;
   line-height: 72px;
 }
 
 .welcome .welcome-wrapper p {
   margin: 15px 0px 30px 0px;
+  color: #ffffffcc;
 }
 
 .welcome .welcome-wrapper button {
@@ -167,16 +180,16 @@ button {
   text-transform: capitalize;
 }
 
-.joininfo .joininfo-wrapper span {
-  color: #f00;
-}
-
 .joininfo .joininfo-wrapper button {
   text-transform: capitalize;
   margin-top: 52px;
 }
 
 /* coming soon css style */
+.comingsoon {
+  margin-top: 100px;
+}
+
 .comingsoon .comingsoon-wrapper {
   display: flex;
   align-items: center;
@@ -193,20 +206,6 @@ button {
 
 .comingsoon .comingsoon-wrapper .colum-left * {
   margin-bottom: 15px;
-}
-
-.comingsoon .comingsoon-wrapper .colum-left h5 {
-  color: #f00;
-  font-size: 19px;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
-}
-
-.comingsoon .comingsoon-wrapper .colum-left h3 {
-  color: #070211;
-  font-family: "Merriweather", serif;
-  font-size: 39px;
-  font-weight: 900;
 }
 
 /* colum middle style*/
@@ -236,7 +235,7 @@ button {
   margin-bottom: 18px;
 }
 
-.comingsoon .comingsoon-wrapper .colum-right h3 {
+.comingsoon .comingsoon-wrapper .colum-right h1 {
   color: #f00;
   font-family: "Inter", sans-serif;
   font-size: 39px;
@@ -246,3 +245,30 @@ button {
 .comingsoon .comingsoon-wrapper .colum-right .img {
   margin-top: 30px;
 }
+
+/* holidays css style */
+.holidays {
+  margin-top: 130px;
+  text-align: center;
+}
+
+/* holidays text */
+.holidays .holidays-wrapper .holidays-text {
+  width: 65%;
+  margin: auto;
+}
+
+.holidays .holidays-wrapper .holidays-text h5 {
+  color: #070211;
+}
+
+.holidays .holidays-wrapper .holidays-text h1 {
+  font-size: 58px;
+  margin-top: 12px;
+}
+.holidays .holidays-wrapper .holidays-text p {
+  margin-top: 22px;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
