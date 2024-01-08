@@ -175,3 +175,74 @@ button {
   text-transform: capitalize;
   margin-top: 52px;
 }
+
+/* coming soon css style */
+.comingsoon .comingsoon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.comingsoon .comingsoon-wrapper p {
+  color: rgba(7, 2, 17, 0.6);
+}
+
+/* colum left style*/
+.comingsoon .comingsoon-wrapper .colum-left {
+  width: 25%;
+}
+
+.comingsoon .comingsoon-wrapper .colum-left * {
+  margin-bottom: 15px;
+}
+
+.comingsoon .comingsoon-wrapper .colum-left h5 {
+  color: #f00;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.comingsoon .comingsoon-wrapper .colum-left h3 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 39px;
+  font-weight: 900;
+}
+
+/* colum middle style*/
+.comingsoon .comingsoon-wrapper .colum-middle {
+  width: 50%;
+  text-align: center;
+}
+
+.comingsoon .comingsoon-wrapper .colum-middle .img {
+  border: 12px solid red;
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+.comingsoon .comingsoon-wrapper .colum-middle .img img {
+  margin: 39px;
+  width: 80%;
+}
+
+/* colum right style*/
+.comingsoon .comingsoon-wrapper .colum-right {
+  width: 25%;
+}
+
+.comingsoon .comingsoon-wrapper .colum-right * {
+  margin-bottom: 18px;
+}
+
+.comingsoon .comingsoon-wrapper .colum-right h3 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.comingsoon .comingsoon-wrapper .colum-right .img {
+  margin-top: 30px;
+}
